@@ -1,0 +1,540 @@
+body {
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e3a4c;
+    color: white;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e3a4c;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+        .hero {
+    background-image: url('https://i.ibb.co/4ZzKtX6v/Screenshot-2025-02-28-175144.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh; /* Adjust based on content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ensure text is visible */
+}
+
+        .left-content {
+            max-width: 50%;
+            text-align: left;
+        }
+        .left-content h1 {
+            font-size: 60px;
+            color: #2c3e50;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .get-started { background: #3498db; color: white; }
+        .explore { background: transparent; border: 2px solid #3498db; color: #3498db; }
+        .mobile-mockup {
+    width: 250px;
+    height: 590px;
+    background: url("https://i.ibb.co/ksjxPsb9/Screenshot-2025-03-01-115808.png") no-repeat center center/cover;
+    border-radius: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border: 6px solid #333;
+    position:relative;
+    top: 80px;
+
+}
+
+.mobile-mockup::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: #222;
+    border-radius: 10px;
+    top: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mobile-mockup::after {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 6px;
+    background: #222;
+    border-radius: 50%;
+    top: 15px;
+    right: 20px;
+}
+.features-section {
+    background: #fff;
+    padding: 80px 40px;
+}
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+        .feature {
+            padding: 30px;
+            font-size: 22px;
+            background: white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+            background-color: #e9f5ff;
+        }
+        .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+        .feature h3 { font-size: 28px; color: #333; }
+        .feature p { color: #666; font-size: 20px; }
+        @media (max-width: 768px) {
+            .hero { flex-direction: column; text-align: center; }
+            .left-content { max-width: 100%; }
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            padding: 50px;
+            background-color: #fff;
+            background-size: cover;
+        }
+        .text-section {
+            max-width: 500px;
+        }
+        .text-section h2 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .text-section p {
+            font-size: 16px;
+            color: #555;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #0056b3;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+       
+        .iphone-container {
+            display: flex;
+            align-items: flex-end;
+            gap: 30px;
+            position: relative;
+        }
+        .iphone-mockup {
+            border-radius: 40px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border: 8px solid #333;
+            background-size: cover;
+            background-position: center;
+
+        }
+        .iphone-1 {
+            width: 180px;
+            height: 380px;
+            background-image: url("https://i.ibb.co/BFdRz2W/Screenshot-2025-02-28-220729.png");
+            transform: translateY(-100px);
+        }
+        .iphone-2 {
+            width: 220px;
+            height: 450px;
+            background-image: url("https://i.ibb.co/ksjxPsb9/Screenshot-2025-03-01-115808.png");
+            transform: translateY(90px);
+        }
+        .iphone-3 {
+            width: 180px;
+            height: 380px;
+            background-image: url("https://i.ibb.co/hxHqL2cw/Screenshot-2025-03-01-120309.png");
+            transform: translateY(180px);
+        }
+        .container1 {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px;
+        }
+        h1 {
+            font-size: 40px;
+            color: #121212;
+        }
+        p {
+            max-width: 800px;
+            margin: auto;
+            font-size: 22px;
+            color: #555;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+        .feature {
+            padding: 30px;
+            font-size: 22px;
+            background: white;
+           
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+            background-color: #e9f5ff;
+        }
+        .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+            color: #007bff;
+        }
+        .feature h3 {
+            font-size: 28px;
+            margin: 15px 0;
+            color: #333;
+        }
+        .feature p {
+            color: #666;
+            font-size: 20px;
+        }
+        .cta-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background-color: #007bff;
+            color: white;
+            font-size: 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .iphone-mockup iphone-1{
+            background-image: "https://i.ibb.co/wFj3BQYn/11.png";
+        }
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #1e3a4c;
+    color: white;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1e3a4c;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonials {
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-container {
+    display: flex;
+    gap: 10px;
+    width: 80%;
+    height: 600px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.testimonial {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: left;
+}
+
+#we {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #162a38;
+}
+
+
+.healthcare-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #fff;
+    color: black;
+    height: 800px;
+}
+
+.text-section {
+    max-width: 500px;
+}
+
+.text-section h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-section p {
+    font-size: 16px;
+    color: #555;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.iphone-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    position: relative;
+}
+
+.iphone-mockup {
+    border-radius: 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    border: 8px solid #333;
+    background-size: cover;
+    background-position: center;
+}
+
+.iphone-1 {
+    width: 200px;
+    height: 400px;
+    background-image: url("https://i.ibb.co/RGVJj8nP/Screenshot-2025-03-01-100231.png");
+    transform: translateY(-150px);
+}
+
+.iphone-2 {
+    width: 250px;
+    height: 550px;
+    background-image: url("https://i.ibb.co/BFdRz2W/Screenshot-2025-02-28-220729.png");
+    transform: translateY(80px);
+}
+
+.app-buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.app-buttons img {
+    width: 150px;
+    height: auto;
+}
+
+/* Additional CSS for the merged page */
+.merged-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.merged-section .section-header {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.merged-section .section-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.merged-section .section-content .content-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.merged-section .section-content .content-box img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.merged-section .btn-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.merged-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #162a38;
+    color: white;
+    font-size: 14px;
+}
+.testimonials
+{
+    background-color: #162a38;
+    
+   
+}
+.copyright 
+{
+    color: white;
+}
+/* Floating Button Styling */
+#contactNowBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 1000;
+  }
+  
+  #contactNowBtn:hover {
+    background-color: #005a9e;
+  }
+  
+  /* Contact Form Styling */
+  #contactForm {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+  
+  #contactForm h3 {
+    margin-top: 0;
+  }
+  
+  #contactForm input, #contactForm textarea, #contactForm button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  #contactForm button {
+    background-color: #0078d7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contactForm button:hover {
+    background-color: #005a9e;
+  }
+}
